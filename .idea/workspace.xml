@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2065ffa3-3458-42cf-9c57-027bfbddede8" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/config/CVConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/models/Currencies.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/CVConfig.conf" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/Asd.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/SpecificationRepository.java" afterPath="$PROJECT_DIR$/src/main/java/config/SpecificationRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/DictionaryOut.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/services/ProductsService.java" afterPath="$PROJECT_DIR$/src/main/java/services/CurrenciesService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/asd.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" afterPath="$PROJECT_DIR$/src/test/java/test.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testweb.java" afterPath="$PROJECT_DIR$/src/test/java/testweb.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/asd.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/Asd$Api.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/Asd.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/SpecificationRepository.class" afterPath="$PROJECT_DIR$/target/classes/config/SpecificationRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/DictionaryOut.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/ProductsService$Raw.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/services/ProductsService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testweb.class" afterPath="$PROJECT_DIR$/target/test-classes/testweb.class" />
-    </list>
+    <list default="true" id="2065ffa3-3458-42cf-9c57-027bfbddede8" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -203,7 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -590,7 +568,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -602,7 +580,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
