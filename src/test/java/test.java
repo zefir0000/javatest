@@ -1,19 +1,21 @@
-import io.restassured.response.ValidatableResponse;
-import models.DictionaryOut;
+import models.Currencies;
 import org.junit.jupiter.api.Test;
-import services.ProductsService;
+import services.CurrenciesService;
 
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
+import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class test {
 
+    private static final int NUMBER_OF_CURRENCIES = 8;
+
     @Test
-    public void test_NumberOfCircuitsFor2017Season_ShouldBe20() {
+    void test_getCurrencies_shouldSucceed() {
 
-        DictionaryOut getdic = ProductsService.getdic(2);
-
-
+        List<Currencies> currencies = CurrenciesService.getCurrencies();
+        int size = currencies.size();
+        assertEquals(NUMBER_OF_CURRENCIES, size);
     }
 
 }

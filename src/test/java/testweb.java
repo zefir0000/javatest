@@ -17,7 +17,7 @@ class testweb {
     private WebDriver driver;
 
     @BeforeAll
-    public static void createAndStartService() throws IOException {
+    static void createAndStartService() throws IOException {
         service = new ChromeDriverService.Builder()
                 .usingDriverExecutable(new File("driver/chromedriver.exe"))
                 .usingAnyFreePort()
@@ -26,23 +26,23 @@ class testweb {
     }
 
     @AfterAll
-    public static void createAndStopService() {
+    static void createAndStopService() {
         service.stop();
     }
 
     @BeforeEach
-    public void createDriver() {
+    void createDriver() {
         driver = new RemoteWebDriver(service.getUrl(),
                 new ChromeOptions());
     }
 
     @AfterEach
-    public void quitDriver() {
+    void quitDriver() {
         driver.quit();
     }
 
     @Test
-    public void testGoogleSearch() {
+    void testGoogleSearch() {
         driver.get("https://cryptovoucher.io/buy-voucher");
         WebElement logo = driver.findElement(By.className("NavigationBar__logo"));
         logo.click();

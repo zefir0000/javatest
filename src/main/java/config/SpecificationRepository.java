@@ -8,29 +8,24 @@ import io.restassured.filter.Filter;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 
-import io.restassured.mapper.ObjectMapper;
 import io.restassured.specification.RequestSpecification;
-
-import org.apache.http.params.CoreConnectionPNames;
-
-import static org.apache.http.params.CoreConnectionPNames.*;
-
 
 public class SpecificationRepository {
 
     private static Filter requestLoggingFilter = new RequestLoggingFilter();
     private static Filter responseLoggingFilter = new ResponseLoggingFilter();
+
     private static RestAssuredConfig config = RestAssuredConfig
             .newConfig()
             .httpClient(HttpClientConfig.httpClientConfig()
-                    .dontReuseHttpClientInstance()
+                    .dontReuseHttpClientInstance())
+            .objectMapperConfig(ObjectMapperConfig.objectMapperConfig()
+                    .jackson2ObjectMapperFactory((aClass, s) -> JSONParser.mapper));
 
-            ).objectMapperConfig(ObjectMapperConfig.objectMapperConfig().jackson2ObjectMapperFactory((aClass, s) -> JSONParser.mapper));
-
-    public static final RequestSpecification asd = specification()
-            .setBaseUri(Asd.Api.apiUrl)
-            .addHeader("x-user-identity",
-                    Asd.Api.xUserIdentityType + ", " + Asd.Api.xUserIdentityName)
+    public static final RequestSpecification requestSpecification = specification()
+            .setBaseUri(CVConfig.Api.apiUrl)
+          /*  .addHeader("x-user-identity",
+                    Asd.Api.xUserIdentityType + ", " + Asd.Api.xUserIdentityName)*/
             .build();
 
     private static RequestSpecBuilder specification() {
